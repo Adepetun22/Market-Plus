@@ -36,6 +36,13 @@ Pages:
 | `eslint-plugin-react-hooks` | React hooks lint rules |
 | `eslint-plugin-react-refresh` | Fast refresh ESLint plugin |
 
+<img width="1895" height="912" alt="Screenshot 2026-11-10 131512" src="https://github.com/user-attachments/assets/76d7e8ff-cbf6-40aa-982d-e75358dee7cc" />
+<img width="1898" height="910" alt="Screenshot 2026-11-10 131704" src="https://github.com/user-attachments/assets/49a86097-9f91-454d-9587-8fd219684b57" />
+
+
+
+
+
 
 # React + TypeScript + Vite
 
