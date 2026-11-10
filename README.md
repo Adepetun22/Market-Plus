@@ -3,6 +3,8 @@
 
 Market Plus is an admin dashboard for store management. It uses a left-panel navigation (desktop) and bottom navigation (mobile), a sticky topbar with search and user actions, and stat cards / chart panels / data tables across pages. The design system uses Tailwind CSS design tokens (`--color-*`, `--radius-*`, `--shadow-*`, font weights) defined in `src/styles/design-tokens.css`, with animated icons from `@animateicons/react`.
 
+<img width="1895" height="912" alt="Screenshot 2026-11-10 131512" src="https://github.com/user-attachments/assets/76d7e8ff-cbf6-40aa-982d-e75358dee7cc" />
+
 Pages:
 - Overview — dashboard stats, sales chart, category donut, recent orders
 - Orders / Products / Inventory / Customers / Payments — data tables with toolbars, pagination, and status badges
@@ -36,7 +38,7 @@ Pages:
 | `eslint-plugin-react-hooks` | React hooks lint rules |
 | `eslint-plugin-react-refresh` | Fast refresh ESLint plugin |
 
-<img width="1895" height="912" alt="Screenshot 2026-11-10 131512" src="https://github.com/user-attachments/assets/76d7e8ff-cbf6-40aa-982d-e75358dee7cc" />
+
 <img width="1898" height="910" alt="Screenshot 2026-11-10 131704" src="https://github.com/user-attachments/assets/49a86097-9f91-454d-9587-8fd219684b57" />
 
 
