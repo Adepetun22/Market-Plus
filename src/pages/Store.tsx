@@ -95,15 +95,16 @@ function Store() {
         </div>
       </section>
 
-      <section
-        aria-label="Store settings"
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'minmax(220px, 280px) minmax(0, 1fr)',
-          gap: '1.5rem',
-          alignItems: 'start',
-        }}
-      >
+        <section
+          aria-label="Store settings"
+          className="store-layout"
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'minmax(220px, 280px) minmax(0, 1fr)',
+            gap: '1.5rem',
+            alignItems: 'start',
+          }}
+        >
         <nav aria-label="Store settings tabs" className="panel-card" style={{ padding: '0.75rem' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {tabs.map((tab) => {

@@ -1739,3 +1739,99 @@ tbody td {
     padding: 1rem;
   }
 }
+
+/* ============================================================
+   Settings & Store responsive layouts
+   ============================================================ */
+
+.settings-layout,
+.store-layout {
+  min-width: 0;
+}
+
+.settings-layout > nav,
+.store-layout > nav {
+  min-width: 220px;
+  max-width: 280px;
+}
+
+.settings-layout > div,
+.store-layout > div {
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .settings-layout,
+  .store-layout {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .settings-layout > nav,
+  .store-layout > nav {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: auto !important;
+    overflow-x: auto !important;
+    padding: 0.75rem !important;
+    border: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .settings-layout > nav > div,
+  .store-layout > nav > div {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0 !important;
+    min-width: max-content !important;
+    border: 1px solid var(--color-neutral-200) !important;
+    background: #f0f3ff !important;
+    border-radius: var(--radius-md) !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+  }
+
+  .settings-layout > nav > div > button,
+  .store-layout > nav > div > button {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: auto !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: 1px solid var(--color-neutral-200) !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    background: transparent !important;
+    color: var(--color-neutral-700) !important;
+    padding: 0.625rem 1rem !important;
+    min-height: 2.5rem !important;
+    font-size: var(--text-body-medium-size) !important;
+    font-weight: var(--font-weight-medium) !important;
+    cursor: pointer !important;
+  }
+
+  .settings-layout > nav > div > button:last-child,
+  .store-layout > nav > div > button:last-child {
+    border-right: none !important;
+  }
+
+  .settings-layout > div,
+  .store-layout > div {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .settings-layout,
+  .store-layout {
+    padding: 0 1rem;
+  }
+}

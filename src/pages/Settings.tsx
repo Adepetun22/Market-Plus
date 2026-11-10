@@ -127,6 +127,7 @@ function Settings() {
 
       <section
         aria-label="Settings"
+        className="settings-layout"
         style={{
           display: 'grid',
           gridTemplateColumns: 'minmax(220px, 280px) minmax(0, 1fr)',
@@ -157,6 +158,7 @@ function Settings() {
                     color: isActive ? 'var(--color-primary-600)' : 'var(--color-neutral-700)',
                     fontSize: 'var(--text-body-medium-size)',
                     fontWeight: 'var(--font-weight-medium)',
+                    cursor: 'pointer',
                   }}
                 >
                   {tab.label}
